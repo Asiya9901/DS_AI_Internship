@@ -1,0 +1,7 @@
+numbers=list(map(int,input("Enter the numbers").split()))
+print("maximum is",max(numbers))
+print("minimum is",min(numbers))
+print("sum is",sum(numbers))
+print("avg is",(sum(numbers)/len(numbers)))
+print("total length is",len(numbers))
+print("sorted list is",sorted(numbers))
